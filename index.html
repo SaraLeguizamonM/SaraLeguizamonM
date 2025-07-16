@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sara Leguizamon | Portafolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+    body {
+      background: url(https://i.pinimg.com/originals/b6/cd/09/b6cd095b544fceabb377fa28a9b4eb53.jpg);
+      font-family: 'PT Mono', monospace;
+      color: white;
+      margin: 0;
+      padding: 0;
+      cursor: url(https://i.imgur.com/n1OKJev.png), default;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 10px 10px;
+    }
+
+    header h1 {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 16px;
+      color: white;
+    }
+
+    .banner {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .banner img {
+      width: 80%;
+      max-width: 600px;
+      border: double #FF6BBF 4px;
+    }
+
+    .about-section {
+      max-width: 900px;
+      margin: 30px auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 20px;
+      border: double #FF6BBF 4px;
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    .avatar {
+      flex: 0 0 200px;
+      text-align: center;
+    }
+
+    .avatar img {
+      width: 200px;
+      border: solid #FF6BBF 3px;
+      border-radius: 10px;
+    }
+
+    .bio {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    h2 {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 12px;
+      text-align: center;
+      color: white;
+    }
+
+    p {
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .skills-section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      border: double #FF6BBF 4px;
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    ul.skills {
+      list-style-type: square;
+      padding-left: 40px;
+      font-size: 14px;
+    }
+
+    .projects-section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      border: double #FF6BBF 4px;
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    .project {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      border: solid #FF6BBF 2px;
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .project img {
+      max-width: 200px;
+      margin-right: 20px;
+      border: solid #FF6BBF 2px;
+    }
+
+    .project-info {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .project-info a {
+      color: #FF6BBF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 10px;
+      font-size: 12px;
+      border-top: double #FF6BBF 3px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>★ Sara Leguizamon ★</h1>
+  </header>
+
+  <div class="banner">
+    <img src="banner.png" alt="Banner Sobre mí">
+  </div>
+
+  <section class="about-section">
+    <div class="avatar">
+      <img src="avatar.png" alt="Sara Leguizamon">
+    </div>
+    <div class="bio">
+      <h2>Sobre mí</h2>
+      <p>
+        Llevo 2 años estudiando programación con enfoque en Java, usando herramientas como NetBeans, IntelliJ IDEA y Visual Studio Code.
+        Me gustan las matemáticas, la planificación, el diseño y crear soluciones útiles.
+        También manejo conceptos de bases de datos con PHPMyAdmin, lectura de datos en Excel, y algo de análisis de datos con Postman.
+        Sé lo suficiente de Python para defenderme y disfruto mucho aprender nuevas herramientas y tecnologías.
+      </p>
+    </div>
+  </section>
+
+  <section class="skills-section">
+    <h2>Habilidades</h2>
+    <ul class="skills">
+      <li>Programación en Java (NetBeans, IntelliJ IDEA, VS Code)</li>
+      <li>Python básico</li>
+      <li>PHPMyAdmin y manejo de bases de datos</li>
+      <li>Lectura y análisis de datos en Excel</li>
+      <li>Analítica de datos con Postman</li>
+      <li>Diseño, lógica y planeación de proyectos</li>
+    </ul>
+  </section>
+
+  <section class="projects-section">
+    <h2>Proyectos</h2>
+
+    <div class="project">
+      <img src="avatar.png" alt="Preview GitHub">
+      <div class="project-info">
+        <p><a href="https://github.com/SaraLeguizamonM" target="_blank">🌐 Mi GitHub</a><br>Explora todos mis proyectos, colaboraciones y experimentos con Java, bases de datos, lógica y más.</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="avatar.png" alt="Preview IAPES">
+      <div class="project-info">
+        <p><a href="https://github.com/legosmixels/Proyecto_IAPES-Frontend" target="_blank">📘 Proyecto IAPES Prep</a><br>Aplicación educativa para preparar el ICFES Saber 11 con lógica personalizada y acompañamiento.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Diseñado con amor y líneas de código ✨ | © 2025 Sara Leguizamon
+  </footer>
+
+</body>
+</html>
