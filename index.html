@@ -111,10 +111,13 @@
     .project {
       display: flex;
       flex-wrap: wrap;
-      margin-bottom: 20px;
+      justify-content: center; /
+      align-items: center;
+      margin: 0 auto 20px;   
       border: solid #FF6BBF 2px;
       padding: 10px;
       background: rgba(0, 0, 0, 0.4);
+      max-width: 800px;
     }
 
     .project img {
@@ -179,22 +182,28 @@
   </section>
 
   <section class="projects-section">
-    <h2>Proyectos</h2>
+  <h2>Proyectos</h2>
 
-    <div class="project">
-         <alt="Preview GitHub"> 
-       <div class="project-info">
-        <p><a href="https://github.com/SaraLeguizamonM" target="_blank">🐈‍⬛ Mi GitHub</a><br>Explora todos mis proyectos, colaboraciones y experimentos, lógica y más.</p>
-      </div>
+  <div class="project">
+    <img src="ac.jpg" alt="Preview GitHub" class="project-img"> 
+    <div class="project-info">
+      <p>
+        <a href="https://github.com/SaraLeguizamonM" target="_blank">🐈‍⬛ Mi GitHub</a><br>
+        Explora todos mis proyectos, colaboraciones y experimentos, lógica y más.
+      </p>
     </div>
+  </div>
 
-    <div class="project">
-        <alt="Preview IAPES">
-      <div class="project-info">
-        <p><a href="https://github.com/legosmixels/Proyecto_IAPES-Frontend" target="_blank">🎓 Proyecto IAPES Prep</a><br>Aplicación educativa, para preparar el ICFES Saber 11 con lógica personalizada y acompañamiento.</p>
-      </div>
+  <div class="project">
+    <img src="IAPES.png" alt="Preview IAPES" class="project-img">
+    <div class="project-info">
+      <p>
+        <a href="https://github.com/legosmixels/Proyecto_IAPES-Frontend" target="_blank">🎓 Proyecto IAPES Prep</a><br>
+        Aplicación educativa, para preparar el ICFES Saber 11 con lógica personalizada y acompañamiento.
+      </p>
     </div>
-  </section>
+  </div>
+</section>
 
   <footer>
     ★★★ | © 2025 Sara Leguizamon
